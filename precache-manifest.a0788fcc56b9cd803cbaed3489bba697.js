@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04e125acfe4e51a5eef60527fbbe1a8b",
+    "revision": "6a85258753730db0ffc7aa1161396ac2",
     "url": "/react_study/index.html"
   },
   {
-    "revision": "37574839fbfab13f2830",
+    "revision": "6bb495ad9b545739349d",
     "url": "/react_study/static/css/2.c27a359e.chunk.css"
   },
   {
-    "revision": "ad4ffbeb8037774e2b93",
-    "url": "/react_study/static/css/main.16c1917e.chunk.css"
+    "revision": "a111b27578b4268831e4",
+    "url": "/react_study/static/css/main.12c7c8a0.chunk.css"
   },
   {
-    "revision": "37574839fbfab13f2830",
-    "url": "/react_study/static/js/2.c27bbd1b.chunk.js"
+    "revision": "6bb495ad9b545739349d",
+    "url": "/react_study/static/js/2.8d41b29a.chunk.js"
   },
   {
-    "revision": "4386012a6d334684338618496b7aac20",
-    "url": "/react_study/static/js/2.c27bbd1b.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/react_study/static/js/2.8d41b29a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad4ffbeb8037774e2b93",
-    "url": "/react_study/static/js/main.11bfb8e9.chunk.js"
+    "revision": "a111b27578b4268831e4",
+    "url": "/react_study/static/js/main.109808aa.chunk.js"
   },
   {
     "revision": "f8538717fd2afd8ba558",
@@ -36,8 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_study/static/media/3x3rules.f4a886f8.png"
   },
   {
-    "revision": "b1c7852c47aa120998c64c88e8678048",
-    "url": "/react_study/static/media/Afreeca_member.b1c7852c.jpg"
+    "revision": "472b7ab1db7a498b8ce118f5ace941f4",
+    "url": "/react_study/static/media/Afreeca_finalmember.472b7ab1.png"
+  },
+  {
+    "revision": "edcb7a3a30a770872ed0d7c8a14d0250",
+    "url": "/react_study/static/media/Hansol_finalmember.edcb7a3a.png"
   },
   {
     "revision": "7623e06695ec511bf2dd4782278e4705",
@@ -68,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_study/static/media/afreeca.cfe5a287.png"
   },
   {
-    "revision": "a5e3b98e2d14c8b2b3971f25cd6cc040",
-    "url": "/react_study/static/media/hansol_member.a5e3b98e.png"
+    "revision": "40895d8c75f1f20fd143935aa59f5c32",
+    "url": "/react_study/static/media/home_back4.40895d8c.png"
   },
   {
     "revision": "54ef28fce025e1a008f6c9e7d458d8f6",

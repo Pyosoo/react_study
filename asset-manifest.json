@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react_study/static/css/main.16c1917e.chunk.css",
-    "main.js": "/react_study/static/js/main.11bfb8e9.chunk.js",
-    "main.js.map": "/react_study/static/js/main.11bfb8e9.chunk.js.map",
+    "main.css": "/react_study/static/css/main.12c7c8a0.chunk.css",
+    "main.js": "/react_study/static/js/main.109808aa.chunk.js",
+    "main.js.map": "/react_study/static/js/main.109808aa.chunk.js.map",
     "runtime-main.js": "/react_study/static/js/runtime-main.08fd4b3f.js",
     "runtime-main.js.map": "/react_study/static/js/runtime-main.08fd4b3f.js.map",
     "static/css/2.c27a359e.chunk.css": "/react_study/static/css/2.c27a359e.chunk.css",
-    "static/js/2.c27bbd1b.chunk.js": "/react_study/static/js/2.c27bbd1b.chunk.js",
-    "static/js/2.c27bbd1b.chunk.js.map": "/react_study/static/js/2.c27bbd1b.chunk.js.map",
+    "static/js/2.8d41b29a.chunk.js": "/react_study/static/js/2.8d41b29a.chunk.js",
+    "static/js/2.8d41b29a.chunk.js.map": "/react_study/static/js/2.8d41b29a.chunk.js.map",
     "index.html": "/react_study/index.html",
-    "precache-manifest.4c2409c9f915ef31c61086cf1541b5b5.js": "/react_study/precache-manifest.4c2409c9f915ef31c61086cf1541b5b5.js",
+    "precache-manifest.a0788fcc56b9cd803cbaed3489bba697.js": "/react_study/precache-manifest.a0788fcc56b9cd803cbaed3489bba697.js",
     "service-worker.js": "/react_study/service-worker.js",
     "static/css/2.c27a359e.chunk.css.map": "/react_study/static/css/2.c27a359e.chunk.css.map",
-    "static/css/main.16c1917e.chunk.css.map": "/react_study/static/css/main.16c1917e.chunk.css.map",
-    "static/js/2.c27bbd1b.chunk.js.LICENSE.txt": "/react_study/static/js/2.c27bbd1b.chunk.js.LICENSE.txt",
+    "static/css/main.12c7c8a0.chunk.css.map": "/react_study/static/css/main.12c7c8a0.chunk.css.map",
+    "static/js/2.8d41b29a.chunk.js.LICENSE.txt": "/react_study/static/js/2.8d41b29a.chunk.js.LICENSE.txt",
     "static/media/3x3logomain.png": "/react_study/static/media/3x3logomain.56e6bb01.png",
     "static/media/3x3rules.png": "/react_study/static/media/3x3rules.f4a886f8.png",
     "static/media/Homepage.css": "/react_study/static/media/winner_team.e09fdb67.png",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.08fd4b3f.js",
     "static/css/2.c27a359e.chunk.css",
-    "static/js/2.c27bbd1b.chunk.js",
-    "static/css/main.16c1917e.chunk.css",
-    "static/js/main.11bfb8e9.chunk.js"
+    "static/js/2.8d41b29a.chunk.js",
+    "static/css/main.12c7c8a0.chunk.css",
+    "static/js/main.109808aa.chunk.js"
   ]
 }
