@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dfc1bd0bbbb3ad10dd58b4aea54511ad",
+    "revision": "47a6f464639ab071241869cac40084c0",
     "url": "/react_study/index.html"
   },
   {
-    "revision": "d9549ad0eb15000a26bf",
-    "url": "/react_study/static/css/2.c27a359e.chunk.css"
+    "revision": "60612e06191eaa6acaec",
+    "url": "/react_study/static/css/2.4c4477be.chunk.css"
   },
   {
-    "revision": "ca8d390de54fb27721e9",
-    "url": "/react_study/static/css/main.38487632.chunk.css"
+    "revision": "e0ce42754efff524643f",
+    "url": "/react_study/static/css/main.555b2835.chunk.css"
   },
   {
-    "revision": "d9549ad0eb15000a26bf",
-    "url": "/react_study/static/js/2.87c59374.chunk.js"
+    "revision": "60612e06191eaa6acaec",
+    "url": "/react_study/static/js/2.33dcf5a3.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react_study/static/js/2.87c59374.chunk.js.LICENSE.txt"
+    "url": "/react_study/static/js/2.33dcf5a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca8d390de54fb27721e9",
-    "url": "/react_study/static/js/main.eed8e4d4.chunk.js"
+    "revision": "e0ce42754efff524643f",
+    "url": "/react_study/static/js/main.c03f37a1.chunk.js"
   },
   {
     "revision": "f8538717fd2afd8ba558",
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_study/static/media/back.5e2173aa.png"
   },
   {
+    "revision": "56e6bb01fb907007b34a89477286e510",
+    "url": "/react_study/static/media/center_logo.56e6bb01.png"
+  },
+  {
     "revision": "4c175d96c58dc70418c3a6c6fa6f47ba",
     "url": "/react_study/static/media/footer.4c175d96.png"
   },
   {
-    "revision": "0fc69e84a3c1d2fb458b8e0fc9561760",
-    "url": "/react_study/static/media/home_back5.0fc69e84.png"
-  },
-  {
     "revision": "54ef28fce025e1a008f6c9e7d458d8f6",
-    "url": "/react_study/static/media/mvp_imgae.54ef28fc.png"
+    "url": "/react_study/static/media/mvp_image.54ef28fc.png"
   },
   {
     "revision": "1f33ca96e58bec14e701292772105cc2",
@@ -90,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f39d3706eedcd30f4d4c9231c22ef7b1",
     "url": "/react_study/static/media/team-bg.f39d3706.png"
+  },
+  {
+    "revision": "6521d3c0d09f4dba6068fb22545c48a1",
+    "url": "/react_study/static/media/visual_img.6521d3c0.jpg"
   },
   {
     "revision": "e09fdb67debc29bff0bc9999841c4906",

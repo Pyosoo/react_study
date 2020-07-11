@@ -1,31 +1,35 @@
 {
   "files": {
-    "main.css": "/react_study/static/css/main.38487632.chunk.css",
-    "main.js": "/react_study/static/js/main.eed8e4d4.chunk.js",
-    "main.js.map": "/react_study/static/js/main.eed8e4d4.chunk.js.map",
+    "main.css": "/react_study/static/css/main.555b2835.chunk.css",
+    "main.js": "/react_study/static/js/main.c03f37a1.chunk.js",
+    "main.js.map": "/react_study/static/js/main.c03f37a1.chunk.js.map",
     "runtime-main.js": "/react_study/static/js/runtime-main.08fd4b3f.js",
     "runtime-main.js.map": "/react_study/static/js/runtime-main.08fd4b3f.js.map",
-    "static/css/2.c27a359e.chunk.css": "/react_study/static/css/2.c27a359e.chunk.css",
-    "static/js/2.87c59374.chunk.js": "/react_study/static/js/2.87c59374.chunk.js",
-    "static/js/2.87c59374.chunk.js.map": "/react_study/static/js/2.87c59374.chunk.js.map",
+    "static/css/2.4c4477be.chunk.css": "/react_study/static/css/2.4c4477be.chunk.css",
+    "static/js/2.33dcf5a3.chunk.js": "/react_study/static/js/2.33dcf5a3.chunk.js",
+    "static/js/2.33dcf5a3.chunk.js.map": "/react_study/static/js/2.33dcf5a3.chunk.js.map",
     "index.html": "/react_study/index.html",
-    "precache-manifest.fb562fb9cfc1d7ba98bec9fc7c069f7c.js": "/react_study/precache-manifest.fb562fb9cfc1d7ba98bec9fc7c069f7c.js",
+    "precache-manifest.82260cf3adf7bdb79c3b1f88f4273bb4.js": "/react_study/precache-manifest.82260cf3adf7bdb79c3b1f88f4273bb4.js",
     "service-worker.js": "/react_study/service-worker.js",
-    "static/css/2.c27a359e.chunk.css.map": "/react_study/static/css/2.c27a359e.chunk.css.map",
-    "static/css/main.38487632.chunk.css.map": "/react_study/static/css/main.38487632.chunk.css.map",
-    "static/js/2.87c59374.chunk.js.LICENSE.txt": "/react_study/static/js/2.87c59374.chunk.js.LICENSE.txt",
+    "static/css/2.4c4477be.chunk.css.map": "/react_study/static/css/2.4c4477be.chunk.css.map",
+    "static/css/main.555b2835.chunk.css.map": "/react_study/static/css/main.555b2835.chunk.css.map",
+    "static/js/2.33dcf5a3.chunk.js.LICENSE.txt": "/react_study/static/js/2.33dcf5a3.chunk.js.LICENSE.txt",
     "static/media/3x3rules.png": "/react_study/static/media/3x3rules.f4a886f8.png",
-    "static/media/Homepage.css": "/react_study/static/media/yellow_say.affe2e59.png",
+    "static/media/Homepage.css": "/react_study/static/media/visual_img.6521d3c0.jpg",
     "static/media/Team.css": "/react_study/static/media/team-bg.f39d3706.png",
     "static/media/afreeca.png": "/react_study/static/media/afreeca.cfe5a287.png",
     "static/media/VideoClip.css": "/react_study/static/media/back.5e2173aa.png",
-    "static/media/ranking.png": "/react_study/static/media/ranking.1f33ca96.png"
+    "static/media/center_logo.png": "/react_study/static/media/center_logo.56e6bb01.png",
+    "static/media/mvp_image.png": "/react_study/static/media/mvp_image.54ef28fc.png",
+    "static/media/ranking.png": "/react_study/static/media/ranking.1f33ca96.png",
+    "static/media/winner_team.png": "/react_study/static/media/winner_team.e09fdb67.png",
+    "static/media/yellow_say.png": "/react_study/static/media/yellow_say.affe2e59.png"
   },
   "entrypoints": [
     "static/js/runtime-main.08fd4b3f.js",
-    "static/css/2.c27a359e.chunk.css",
-    "static/js/2.87c59374.chunk.js",
-    "static/css/main.38487632.chunk.css",
-    "static/js/main.eed8e4d4.chunk.js"
+    "static/css/2.4c4477be.chunk.css",
+    "static/js/2.33dcf5a3.chunk.js",
+    "static/css/main.555b2835.chunk.css",
+    "static/js/main.c03f37a1.chunk.js"
   ]
 }
