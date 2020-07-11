@@ -1,0 +1,33 @@
+.Result_Container {
+    width: 100%;
+    height: 200vh;
+    background-image: url('../Images//back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Roundlist h1 {
+    color : white;
+}
+
+.Roundlist {
+    color: white;
+    padding-top: 37vh;
+}
+
+.ant-card {
+    width: 20vw;
+    border-radius: 100px;
+}
+
+.ant-col {
+    text-align: center;
+    justify-content: center;
+}
+
+.ant-row {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}

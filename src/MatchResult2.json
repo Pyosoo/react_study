@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+       "Home": "Hanwool",
+       "Away": "Descente",
+       "Home_score" : "16",
+       "Away_score" : "21"
+    },
+    {
+        "id": 2,
+        "Home": "Scorecenter",
+        "Away": "Bacchus",
+        "Home_score" : "11",
+        "Away_score" : "21"
+    },
+    {
+        "id": 3,
+        "Home": "Afreeca",
+        "Away": "Descente",
+        "Home_score" : "11",
+        "Away_score" : "21"
+    },
+    {
+        "id": 4,
+        "Home": "Hansol",
+        "Away": "Bacchus",
+        "Home_score" : "21",
+        "Away_score" : "15"
+    },
+    {
+        "id": 5,
+        "Home": "Hanwool",
+        "Away": "Afreeca",
+        "Home_score" : "19",
+        "Away_score" : "21"
+    },
+    {
+        "id": 6,
+        "Home": "Scorecenter",
+        "Away": "Hansol",
+        "Home_score" : "17",
+        "Away_score" : "22"
+    }
+]

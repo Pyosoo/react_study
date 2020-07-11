@@ -1,0 +1,15 @@
+.PlayerRanking_Container {
+    width: 100%;
+    height: 200vh;
+    background-image: url('../Images//back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: 41vw;
+    margin-top: 40vh;
+}

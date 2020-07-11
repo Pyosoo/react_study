@@ -1,0 +1,29 @@
+.VideoClip_Container {
+    width: 100%;
+    height: 200vh;
+    background-image: url('../Images/back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 37vh;
+}
+h1, p{
+    text-align: center;
+    color: white;
+}
+.Video_Row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Video_box{
+    text-align: center;
+}
+
+.video {
+    width: 25vw;
+    height: 40vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}

@@ -1,0 +1,72 @@
+/*
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.ant-layout-slider{
+  background-color: #fff;
+}
+
+.ant-menu-item-selected, .ant-menu-item-selected a, .ant-menu-item-selected a:hover {
+  color: red;
+}
+.ant-menu-inline .ant-menu-item:after, .ant-menu-vertical-left .ant-menu-item:after, .ant-menu-vertical-right .ant-menu-item:after, .ant-menu-vertical .ant-menu-item:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid red;
+}
+
+.ant-menu-item:hover{
+  color: red;
+}
+.ant-menu-item span :hover{
+  color: red;
+}
+
+*/
+
+.layout {
+  height: max-content;
+}
+.Header{
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ant-menu {
+  width: 100%;
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+  margin-right: 0;
+  background: red;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: red;
+}
+.Header ul {
+   font-size: 1vw;
+}
+
+element.style {
+  margin: 0px 0px 0px;
+}
+#components-layout-demo-top .logo {
+  background: transparent;
+  float: left;
+}
+
+.main_div{
+}
