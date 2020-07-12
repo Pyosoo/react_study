@@ -329,6 +329,12 @@ class Result extends Component {
 
         var match_count = 1;     
         var c1 = 2;
+        var c2 = 2;
+        var c3 = 2;
+        var c4 = 2;
+        var c5 = 2;
+        var c6 = 2;
+        var c7 = 2;
         const gamelist1 = this.state.MR1.map(data =>{
             if(c1 % 2 === 0){
                 c1++;
@@ -362,77 +368,215 @@ class Result extends Component {
             }
         }
         );
+        match_count = 1;
+        const gamelist2 = this.state.MR2.map(data =>{
+            if(c2 % 2 === 0){
+                c2++;
+                return (
+                <div className ="Rbox" style={{marginLeft:'15%'}}>
+                    <span>제{match_count++}경기</span>
+                    <div className="Rbox1">
+                        {data.Home} <br/> {data.Home_score}
+                    </div>
+                    <p>vs</p>
+                    <div className="Rbox1">
+                        {data.Away} <br/> {data.Away_score}
+                    </div>
+                </div>
+            )
+            }
+            else{
+                c2++;
+                return (
+                    <div className ="Rbox" style={{marginLeft:'50%'}}>
+                        <div className="Rbox1">
+                            {data.Home} <br/> {data.Home_score}
+                        </div>
+                        <p>vs</p>
+                        <div className="Rbox1">
+                            {data.Away} <br/> {data.Away_score}
+                        </div>
+                        <span>제{match_count++}경기</span>
+                    </div>
+                )
+            }
+        }
+        );
        // match_count = 1;
-        const gamelist2 = this.state.MR2.map(data =>
-            <div className ="Rbox">
-                <div className="Rbox1">
-                    {data.Home} <br/> {data.Home_score}
+        match_count = 1;
+        const gamelist3 = this.state.MR3.map(data =>{
+            if(c3 % 2 === 0){
+                c3++;
+                return (
+                <div className ="Rbox" style={{marginLeft:'15%'}}>
+                    <span>제{match_count++}경기</span>
+                    <div className="Rbox1">
+                        {data.Home} <br/> {data.Home_score}
+                    </div>
+                    <p>vs</p>
+                    <div className="Rbox1">
+                        {data.Away} <br/> {data.Away_score}
+                    </div>
                 </div>
-                <p>vs</p>
-                <div className="Rbox1">
-                    {data.Away} <br/> {data.Away_score}
+            )
+            }
+            else{
+                c3++;
+                return (
+                    <div className ="Rbox" style={{marginLeft:'50%'}}>
+                        <div className="Rbox1">
+                            {data.Home} <br/> {data.Home_score}
+                        </div>
+                        <p>vs</p>
+                        <div className="Rbox1">
+                            {data.Away} <br/> {data.Away_score}
+                        </div>
+                        <span>제{match_count++}경기</span>
+                    </div>
+                )
+            }
+        }
+        );
+
+        //match_count = 1;
+        match_count = 1;
+        const gamelist4 = this.state.MR4.map(data =>{
+            if(c4 % 2 === 0){
+                c4++;
+                return (
+                <div className ="Rbox" style={{marginLeft:'15%'}}>
+                    <span>제{match_count++}경기</span>
+                    <div className="Rbox1">
+                        {data.Home} <br/> {data.Home_score}
+                    </div>
+                    <p>vs</p>
+                    <div className="Rbox1">
+                        {data.Away} <br/> {data.Away_score}
+                    </div>
                 </div>
-            </div>
-            );
-       // match_count = 1;
-        const gamelist3 = this.state.MR3.map(data =>
-            <div className ="Rbox">
-                <div className="Rbox1">
-                    {data.Home} <br/> {data.Home_score}
-                </div>
-                <p>vs</p>
-                <div className="Rbox1">
-                    {data.Away} <br/> {data.Away_score}
-                </div>
-            </div>    
+            )
+            }
+            else{
+                c4++;
+                return (
+                    <div className ="Rbox" style={{marginLeft:'50%'}}>
+                        <div className="Rbox1">
+                            {data.Home} <br/> {data.Home_score}
+                        </div>
+                        <p>vs</p>
+                        <div className="Rbox1">
+                            {data.Away} <br/> {data.Away_score}
+                        </div>
+                        <span>제{match_count++}경기</span>
+                    </div>
+                )
+            }
+        }
         );
         //match_count = 1;
-        const gamelist4 = this.state.MR4.map(data =>
-            <div className ="Rbox">
-                <div className="Rbox1">
-                    {data.Home} <br/> {data.Home_score}
+        match_count = 1;
+        const gamelist5 = this.state.MR5.map(data =>{
+            if(c5 % 2 === 0){
+                c5++;
+                return (
+                <div className ="Rbox" style={{marginLeft:'15%'}}>
+                    <span>제{match_count++}경기</span>
+                    <div className="Rbox1">
+                        {data.Home} <br/> {data.Home_score}
+                    </div>
+                    <p>vs</p>
+                    <div className="Rbox1">
+                        {data.Away} <br/> {data.Away_score}
+                    </div>
                 </div>
-                <p>vs</p>
-                <div className="Rbox1">
-                    {data.Away} <br/> {data.Away_score}
-                </div>
-            </div>    
+            )
+            }
+            else{
+                c5++;
+                return (
+                    <div className ="Rbox" style={{marginLeft:'50%'}}>
+                        <div className="Rbox1">
+                            {data.Home} <br/> {data.Home_score}
+                        </div>
+                        <p>vs</p>
+                        <div className="Rbox1">
+                            {data.Away} <br/> {data.Away_score}
+                        </div>
+                        <span>제{match_count++}경기</span>
+                    </div>
+                )
+            }
+        }
         );
         //match_count = 1;
-        const gamelist5 = this.state.MR5.map(data =>
-            <div className ="Rbox">
-                <div className="Rbox1">
-                    {data.Home} <br/> {data.Home_score}
+        match_count = 1;
+        const gamelist6 = this.state.MR6.map(data =>{
+            if(c6 % 2 === 0){
+                c6++;
+                return (
+                <div className ="Rbox" style={{marginLeft:'15%'}}>
+                    <span>제{match_count++}경기</span>
+                    <div className="Rbox1">
+                        {data.Home} <br/> {data.Home_score}
+                    </div>
+                    <p>vs</p>
+                    <div className="Rbox1">
+                        {data.Away} <br/> {data.Away_score}
+                    </div>
                 </div>
-                <p>vs</p>
-                <div className="Rbox1">
-                    {data.Away} <br/> {data.Away_score}
-                </div>
-            </div>
+            )
+            }
+            else{
+                c6++;
+                return (
+                    <div className ="Rbox" style={{marginLeft:'50%'}}>
+                        <div className="Rbox1">
+                            {data.Home} <br/> {data.Home_score}
+                        </div>
+                        <p>vs</p>
+                        <div className="Rbox1">
+                            {data.Away} <br/> {data.Away_score}
+                        </div>
+                        <span>제{match_count++}경기</span>
+                    </div>
+                )
+            }
+        }
         );
         //match_count = 1;
-        const gamelist6 = this.state.MR6.map(data =>
-            <div className ="Rbox">
-                <div className="Rbox1">
-                    {data.Home} <br/> {data.Home_score}
+        match_count = 1;
+        const gamelist7 = this.state.MR7.map(data =>{
+            if(c7 % 2 === 0){
+                c7++;
+                return (
+                <div className ="Rbox" style={{marginLeft:'15%'}}>
+                    <span>제{match_count++}경기</span>
+                    <div className="Rbox1">
+                        {data.Home} <br/> {data.Home_score}
+                    </div>
+                    <p>vs</p>
+                    <div className="Rbox1">
+                        {data.Away} <br/> {data.Away_score}
+                    </div>
                 </div>
-                <p>vs</p>
-                <div className="Rbox1">
-                    {data.Away} <br/> {data.Away_score}
-                </div>
-            </div>    
-        );
-        //match_count = 1;
-        const gamelist7 = this.state.MR7.map(data =>
-            <div className ="Rbox">
-                <div className="Rbox1">
-                    {data.Home} <br/> {data.Home_score}
-                </div>
-                <p>vs</p>
-                <div className="Rbox1">
-                    {data.Away} <br/> {data.Away_score}
-                </div>
-            </div>
+            )
+            }
+            else{
+                c7++;
+                return (
+                    <div className ="Rbox" style={{marginLeft:'50%'}}>
+                        <div className="Rbox1">
+                            {data.Home} <br/> {data.Home_score}
+                        </div>
+                        <p>vs</p>
+                        <div className="Rbox1">
+                            {data.Away} <br/> {data.Away_score}
+                        </div>
+                        <span>제{match_count++}경기</span>
+                    </div>
+                )
+            }
+        }
         );
 
 

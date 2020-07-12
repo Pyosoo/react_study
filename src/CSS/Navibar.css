@@ -9,14 +9,15 @@
 .ant-menu {
   width: 100%;
   text-align: center;
+  
 }
 .ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
   margin-right: 0;
-  background: red;
+  background: rgb(119, 32, 32);
 }
 
 .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
-  background-color: red;
+  background-color: rgb(119, 32, 32);
 }
 .Header ul {
    font-size: 1vw;
