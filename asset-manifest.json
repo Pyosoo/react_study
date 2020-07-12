@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/react_study/static/css/main.555b2835.chunk.css",
-    "main.js": "/react_study/static/js/main.c03f37a1.chunk.js",
-    "main.js.map": "/react_study/static/js/main.c03f37a1.chunk.js.map",
+    "main.css": "/react_study/static/css/main.8e341d16.chunk.css",
+    "main.js": "/react_study/static/js/main.6602d8a5.chunk.js",
+    "main.js.map": "/react_study/static/js/main.6602d8a5.chunk.js.map",
     "runtime-main.js": "/react_study/static/js/runtime-main.08fd4b3f.js",
     "runtime-main.js.map": "/react_study/static/js/runtime-main.08fd4b3f.js.map",
     "static/css/2.4c4477be.chunk.css": "/react_study/static/css/2.4c4477be.chunk.css",
-    "static/js/2.33dcf5a3.chunk.js": "/react_study/static/js/2.33dcf5a3.chunk.js",
-    "static/js/2.33dcf5a3.chunk.js.map": "/react_study/static/js/2.33dcf5a3.chunk.js.map",
+    "static/js/2.2a1596d0.chunk.js": "/react_study/static/js/2.2a1596d0.chunk.js",
+    "static/js/2.2a1596d0.chunk.js.map": "/react_study/static/js/2.2a1596d0.chunk.js.map",
     "index.html": "/react_study/index.html",
-    "precache-manifest.82260cf3adf7bdb79c3b1f88f4273bb4.js": "/react_study/precache-manifest.82260cf3adf7bdb79c3b1f88f4273bb4.js",
+    "precache-manifest.1c9fc1615d6ac729253179697fb81455.js": "/react_study/precache-manifest.1c9fc1615d6ac729253179697fb81455.js",
     "service-worker.js": "/react_study/service-worker.js",
     "static/css/2.4c4477be.chunk.css.map": "/react_study/static/css/2.4c4477be.chunk.css.map",
-    "static/css/main.555b2835.chunk.css.map": "/react_study/static/css/main.555b2835.chunk.css.map",
-    "static/js/2.33dcf5a3.chunk.js.LICENSE.txt": "/react_study/static/js/2.33dcf5a3.chunk.js.LICENSE.txt",
+    "static/css/main.8e341d16.chunk.css.map": "/react_study/static/css/main.8e341d16.chunk.css.map",
+    "static/js/2.2a1596d0.chunk.js.LICENSE.txt": "/react_study/static/js/2.2a1596d0.chunk.js.LICENSE.txt",
     "static/media/3x3rules.png": "/react_study/static/media/3x3rules.f4a886f8.png",
     "static/media/Homepage.css": "/react_study/static/media/visual_img.6521d3c0.jpg",
     "static/media/Team.css": "/react_study/static/media/team-bg.f39d3706.png",
     "static/media/afreeca.png": "/react_study/static/media/afreeca.cfe5a287.png",
     "static/media/VideoClip.css": "/react_study/static/media/back.5e2173aa.png",
     "static/media/center_logo.png": "/react_study/static/media/center_logo.56e6bb01.png",
+    "static/media/Result.css": "/react_study/static/media/result_back2.png.059aa953.jpg",
     "static/media/mvp_image.png": "/react_study/static/media/mvp_image.54ef28fc.png",
     "static/media/ranking.png": "/react_study/static/media/ranking.1f33ca96.png",
     "static/media/winner_team.png": "/react_study/static/media/winner_team.e09fdb67.png",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.08fd4b3f.js",
     "static/css/2.4c4477be.chunk.css",
-    "static/js/2.33dcf5a3.chunk.js",
-    "static/css/main.555b2835.chunk.css",
-    "static/js/main.c03f37a1.chunk.js"
+    "static/js/2.2a1596d0.chunk.js",
+    "static/css/main.8e341d16.chunk.css",
+    "static/js/main.6602d8a5.chunk.js"
   ]
 }
