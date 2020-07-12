@@ -1,24 +1,53 @@
 .Result_Container {
     width: 100%;
     height: 200vh;
-    background-image: url('../Images//back.png');
+    background-image: url('../Images//result_back2.png.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.Rbox{
+    display: flex;
+    width: 700px;
+    height: 240px;
+    color: white;
+}
+.Rbox1{
+    width: 240px;
+    height: 240px;
+    padding-top: 80px;
+    background-image: url('../Images/double_circle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.Rbox span {
+    width: max-content;
+    height: 240px;
+    font-size: 0.8vw;
+    padding-top: 110px;
+    font-weight: bold;
+}
+.Rbox p{
+    font-weight: bold;
+    font-size: 2vw;
+    height: 240px;
+    padding-top: 100px;
+}
 .Roundlist h1 {
     color : white;
 }
 
 .Roundlist {
     color: white;
-    padding-top: 37vh;
+    padding-top: 0;
 }
 
 .ant-card {
-    width: 20vw;
-    border-radius: 100px;
+    width: 12vw;
+    height: 18vh;
 }
 
 .ant-col {
@@ -30,4 +59,28 @@
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+}
+
+.T_box {
+    width: 14vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sc{
+    background-image: url('../Images/scorecenter_result.png.jpg');
+}
+.af{
+    background-image: url('../Images/afreeca_result.png.jpg');
+}
+.de{
+    background-image: url('../Images/descente_result.png.jpg');
+}
+.hw{
+    background-image: url('../Images/hanwool_result.png.jpg');
+}
+.hs{
+    background-image: url('../Images/hansol_result.png.jpg');
+}
+.bc{
+    background-image: url('../Images/bacchus_result.png.jpg'); 
 }

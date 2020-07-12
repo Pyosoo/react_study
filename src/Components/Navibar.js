@@ -77,26 +77,33 @@ class Navibar extends Component {
     return (
       <Router basename="/react_study">
         <Layout className="layout" >
-              <Header className="Header" style={{display:'flex',right:this.state.headerR, width:this.state.wid,  backgroundColor:'transparent'}}> 
+              <Header className="Header" style={{display:'flex',right:this.state.headerR, width:this.state.wid,  backgroundColor:'transparent', justifyContent:'center'}}> 
                   <Menu className="menu_bar" style={{textAlign:this.state.ta}}  theme="dark" mode={this.state.Navimode} defaultSelectedKeys={['0']}>
-                      <Menu.Item style={{float:this.state.floatmode}} key="5" icon={<QuestionCircleOutlined />}>
-                        <Link className="linkitem" to="/about3x3"><b>{this.state.a}</b></Link>
-                      </Menu.Item>
-                      <Menu.Item style={{float:this.state.floatmode}} key="4" icon={<YoutubeFilled />}>
-                        <Link className="linkitem" to="/videoclip"><b>{this.state.f}</b></Link>
-                      </Menu.Item>
-                      <Menu.Item style={{float:this.state.floatmode}} key="3" icon={<CrownOutlined />}>
-                        <Link className="linkitem" to="/playerranking"><b>{this.state.e}</b></Link>
-                      </Menu.Item>
-                      <Menu.Item style={{float:this.state.floatmode}} key="2" icon={<TrophyFilled />}>
-                        <Link className="linkitem" to="/result"><b>{this.state.d}</b></Link>
-                      </Menu.Item>
-                      <Menu.Item style={{float:this.state.floatmode}} key="1" icon={<UserOutlined />}>
-                        <Link className="linkitem" to="/team"><b>{this.state.c}</b></Link>
-                      </Menu.Item>
-                      <Menu.Item style={{float:this.state.floatmode}} key="0" icon={<HomeFilled />}>
+
+                      <Menu.Item  key="0" icon={<HomeFilled />}>
                         <Link className="linkitem" to="/"><b>{this.state.b}</b></Link>
                       </Menu.Item>
+                      <Menu.Item  key="1" icon={<UserOutlined />}>
+                        <Link className="linkitem" to="/team"><b>{this.state.c}</b></Link>
+                      </Menu.Item>
+                      <Menu.Item  key="2" icon={<TrophyFilled />}>
+                        <Link className="linkitem" to="/result"><b>{this.state.d}</b></Link>
+                      </Menu.Item>
+                      <Menu.Item  key="3" icon={<CrownOutlined />}>
+                        <Link className="linkitem" to="/playerranking"><b>{this.state.e}</b></Link>
+                      </Menu.Item>
+                      <Menu.Item  key="4" icon={<YoutubeFilled />}>
+                        <Link className="linkitem" to="/videoclip"><b>{this.state.f}</b></Link>
+                      </Menu.Item>
+                      <Menu.Item  key="5" icon={<QuestionCircleOutlined />}>
+                        <Link className="linkitem" to="/about3x3"><b>{this.state.a}</b></Link>
+                      </Menu.Item>
+                      
+                      
+                      
+                      
+                      
+
                 </Menu>
               </Header>
               <Content>
