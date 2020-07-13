@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df7a1a5354a4fe0e9c1899fb3f81fb90",
+    "revision": "986248d60b4a3c0e862d84ff4a6ffd1a",
     "url": "/react_study/index.html"
   },
   {
-    "revision": "c652d13b99c22882488d",
+    "revision": "64b48b735bf64dc2f77a",
     "url": "/react_study/static/css/2.4c4477be.chunk.css"
   },
   {
-    "revision": "6d8b9df0f7bcce3ace50",
-    "url": "/react_study/static/css/main.21d9a4f6.chunk.css"
+    "revision": "4d25b42d08780978dfbf",
+    "url": "/react_study/static/css/main.d60f0df9.chunk.css"
   },
   {
-    "revision": "c652d13b99c22882488d",
-    "url": "/react_study/static/js/2.2a1596d0.chunk.js"
+    "revision": "64b48b735bf64dc2f77a",
+    "url": "/react_study/static/js/2.9aacae25.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react_study/static/js/2.2a1596d0.chunk.js.LICENSE.txt"
+    "url": "/react_study/static/js/2.9aacae25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d8b9df0f7bcce3ace50",
-    "url": "/react_study/static/js/main.c632237c.chunk.js"
+    "revision": "4d25b42d08780978dfbf",
+    "url": "/react_study/static/js/main.7a2d2cc2.chunk.js"
   },
   {
     "revision": "f8538717fd2afd8ba558",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "edcb7a3a30a770872ed0d7c8a14d0250",
     "url": "/react_study/static/media/Hansol_finalmember.edcb7a3a.png"
+  },
+  {
+    "revision": "1b1449410618db4f6a45ebcaf02606c0",
+    "url": "/react_study/static/media/POimage.1b144941.png"
   },
   {
     "revision": "7623e06695ec511bf2dd4782278e4705",
