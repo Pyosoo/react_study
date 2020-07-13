@@ -1231,36 +1231,38 @@ class Result extends Component {
 
 
                 {/* PlayOff */}
-                <div style={{display: `${this.state.result_dp8}` }}>
+                <div className="POinfo" style={{display: `${this.state.result_dp8}` }}>
                     {/* 6강전 라인 */}
                     <div>
-                        <Row gutter={24}>
-                            <Col span={4}>
+                        <Row >
+                            <Col>
                                 <Card title="Afreeca Freecs" bordered={false}>
                                     부전승
                                 </Card>
                             </Col>
-                            <Col span={4}>
+                            <Col>
                                 <Card title="BACCHUS" bordered={false}>
                                     20
                                 </Card>
                             </Col>
-                            <Col span={4}>
+                            <span>VS</span>
+                            <Col>
                                 <Card title="Hanwool CONST" bordered={false}>
                                     16
                                 </Card>
                             </Col>
-                            <Col span={4}>
+                            <Col>
                                 <Card title="Descente Bumpers" bordered={false}>
                                     21
                                 </Card>
                             </Col>
-                            <Col span={4}>
+                            <span>VS</span>
+                            <Col>
                                 <Card title="Score Center" bordered={false}>
                                     9
                                 </Card>
                             </Col>
-                            <Col span={4}>
+                            <Col>
                                 <Card title="Hansol Remicon" bordered={false}>
                                     부전승
                                 </Card>

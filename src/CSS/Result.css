@@ -84,3 +84,7 @@
 .bc{
     background-image: url('../Images/bacchus_result.png.jpg'); 
 }
+
+.POinfo span{
+    color: white;
+}

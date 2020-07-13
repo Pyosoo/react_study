@@ -1,31 +1,89 @@
-.layout {
-  height: max-content;
-}
-.Header{
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-}
-.ant-menu {
-  width: 100%;
-  text-align: center;
+/*
+모바일 제외하고 전체
+*/
+
+@media (min-width: 480px) and (max-width: 2000px) {
+
+  .layout {
+    height: max-content;
+  }
+  .Header{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .ant-menu {
+    width: 100%;
+    text-align: center;
+    
+  }
+  .ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+    margin-right: 0;
+    background: rgb(119, 32, 32);
+  }
   
-}
-.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
-  margin-right: 0;
-  background: rgb(119, 32, 32);
-}
+  .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: rgb(119, 32, 32);
+  }
+  .Header ul {
+     font-size: 1vw;
+  }
+  
+  element.style {
+    margin: 0px 0px 0px;
+  }
+  #components-layout-demo-top .logo {
+    background: transparent;
+  }
+  
+  
+  }
 
-.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
-  background-color: rgb(119, 32, 32);
-}
-.Header ul {
-   font-size: 1vw;
-}
 
-element.style {
-  margin: 0px 0px 0px;
-}
-#components-layout-demo-top .logo {
-  background: transparent;
+
+
+
+
+/*
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+##Device = 대부분의 스마트폰 모바일 기기(세로)
+##Screen = 320px에서 479px 사이
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .layout {
+    height: max-content;
+  }
+  .Header{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .ant-menu {
+    width: 100%;
+    text-align: center;
+    
+  }
+  .ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+    margin-right: 0;
+    background: rgb(119, 32, 32);
+  }
+  
+  .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: rgb(119, 32, 32);
+  }
+  .Header ul {
+     font-size: 1vw;
+  }
+  
+  element.style {
+    margin: 0px 0px 0px;
+  }
+  #components-layout-demo-top .logo {
+    background: transparent;
+  }
+  
+  
 }

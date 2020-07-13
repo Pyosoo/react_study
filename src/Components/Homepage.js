@@ -63,7 +63,7 @@ class Homepage extends Component {
 
 
                 <div class="video_box">
-                    <iframe title="last" width="1250px" height="800px" src="https://www.youtube.com/embed/uVJ5Ifc_HJE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe title="last" className="video"src="https://www.youtube.com/embed/uVJ5Ifc_HJE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
 
 

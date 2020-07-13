@@ -48,23 +48,23 @@ class Navibar extends Component {
   };
    
   var myEfficientFn = debounce(function() {
-    if(window.innerWidth < 1000){
+    if(window.innerWidth < 500){
       this.setState({
-       Navimode : "vertical",
-       floatmode : "",
-       wid : '',
-       ta : "right",
-       headerR : "0",
-       headerPR : "0"
+        a: "",
+        b: "",
+        c: "",
+        d: "",
+        e: "",
+        f: ""
       })
     }else if(window.innerWidth >= 1000){
       this.setState({
-       Navimode : "horizontal",
-       floatmode: "right",
-       wid : '100%',
-       ta : "",
-       headerR :"",
-       headerPR : "50px"
+        a: "About3x3",
+        b: "Home",
+        c: "Team",
+        d: "Result",
+        e: "ranking",
+        f: "Video"
       })
     }
   }.bind(this), 250);
@@ -77,8 +77,8 @@ class Navibar extends Component {
     return (
       <Router basename="/react_study">
         <Layout className="layout" >
-              <Header className="Header" style={{display:'flex',right:this.state.headerR, width:this.state.wid,  backgroundColor:'transparent', justifyContent:'center'}}> 
-                  <Menu className="menu_bar" style={{textAlign:this.state.ta}}  theme="dark" mode={this.state.Navimode} defaultSelectedKeys={['0']}>
+              <Header className="Header" > 
+                  <Menu className="menu_bar" theme="dark" mode={this.state.Navimode} defaultSelectedKeys={['0']}>
 
                       <Menu.Item  key="0" icon={<HomeFilled />}>
                         <Link className="linkitem" to="/"><b>{this.state.b}</b></Link>

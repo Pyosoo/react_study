@@ -13,7 +13,7 @@ class Team extends Component {
     render() {
         return (
             <div className="Team_Container" style={{width:'100%'}}>
-                <div style={{display:'relative', paddingTop:'900px', width:'60%', height:'4405px', marginLeft:'auto', marginRight:'auto' }}>
+                <div className="under_box_total" >
                     <div className="TeamBOX" id="box1">
                     </div>
 
