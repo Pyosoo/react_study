@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/react_study/static/css/main.e7c2e41a.chunk.css",
-    "main.js": "/react_study/static/js/main.687fb159.chunk.js",
-    "main.js.map": "/react_study/static/js/main.687fb159.chunk.js.map",
+    "main.css": "/react_study/static/css/main.21d9a4f6.chunk.css",
+    "main.js": "/react_study/static/js/main.c632237c.chunk.js",
+    "main.js.map": "/react_study/static/js/main.c632237c.chunk.js.map",
     "runtime-main.js": "/react_study/static/js/runtime-main.08fd4b3f.js",
     "runtime-main.js.map": "/react_study/static/js/runtime-main.08fd4b3f.js.map",
     "static/css/2.4c4477be.chunk.css": "/react_study/static/css/2.4c4477be.chunk.css",
     "static/js/2.2a1596d0.chunk.js": "/react_study/static/js/2.2a1596d0.chunk.js",
     "static/js/2.2a1596d0.chunk.js.map": "/react_study/static/js/2.2a1596d0.chunk.js.map",
     "index.html": "/react_study/index.html",
-    "precache-manifest.95314666cae7aff6a011e5f405935eaa.js": "/react_study/precache-manifest.95314666cae7aff6a011e5f405935eaa.js",
+    "precache-manifest.d1cd99e35d59e9a6098b77363fb980a8.js": "/react_study/precache-manifest.d1cd99e35d59e9a6098b77363fb980a8.js",
     "service-worker.js": "/react_study/service-worker.js",
     "static/css/2.4c4477be.chunk.css.map": "/react_study/static/css/2.4c4477be.chunk.css.map",
-    "static/css/main.e7c2e41a.chunk.css.map": "/react_study/static/css/main.e7c2e41a.chunk.css.map",
+    "static/css/main.21d9a4f6.chunk.css.map": "/react_study/static/css/main.21d9a4f6.chunk.css.map",
     "static/js/2.2a1596d0.chunk.js.LICENSE.txt": "/react_study/static/js/2.2a1596d0.chunk.js.LICENSE.txt",
     "static/media/3x3rules.png": "/react_study/static/media/3x3rules.f4a886f8.png",
     "static/media/Homepage.css": "/react_study/static/media/visual_img.6521d3c0.jpg",
     "static/media/Team.css": "/react_study/static/media/team-bg.f39d3706.png",
     "static/media/afreeca.png": "/react_study/static/media/afreeca.cfe5a287.png",
     "static/media/VideoClip.css": "/react_study/static/media/back.5e2173aa.png",
+    "static/media/PlayerRanking.css": "/react_study/static/media/back_long.95bc16c6.png",
     "static/media/center_logo.png": "/react_study/static/media/center_logo.56e6bb01.png",
     "static/media/Result.css": "/react_study/static/media/result_back2.png.059aa953.jpg",
     "static/media/mvp_image.png": "/react_study/static/media/mvp_image.54ef28fc.png",
@@ -30,7 +31,7 @@
     "static/js/runtime-main.08fd4b3f.js",
     "static/css/2.4c4477be.chunk.css",
     "static/js/2.2a1596d0.chunk.js",
-    "static/css/main.e7c2e41a.chunk.css",
-    "static/js/main.687fb159.chunk.js"
+    "static/css/main.21d9a4f6.chunk.css",
+    "static/js/main.c632237c.chunk.js"
   ]
 }
