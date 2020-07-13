@@ -8,9 +8,8 @@ import MatchResult6 from '../MatchResult6.json'
 import MatchResult7 from '../MatchResult7.json'
 import afreeca from '../Images/afreeca.png';
 import '../CSS/Result.css';
-import { Card, Col, Row , Typography } from 'antd';
+import { Card, Col, Row  } from 'antd';
 import { CheckCircleOutlined, StopOutlined } from '@ant-design/icons';
-const { Title } = Typography;
 class Result extends Component {
 
     constructor(props) {
@@ -777,7 +776,7 @@ class Result extends Component {
                         </div>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box af" title={<Title level={2}>아프리카</Title>} bordered={false}>
+                                <Card className="T_box af" title="아프리카" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Afreeca_win}승 <br />
                                         총 득점: {this.state.Afreeca_point}점
@@ -785,7 +784,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box bc"  title={<Title level={2}>박카스</Title>} bordered={false}>
+                                <Card className="T_box bc"  title="박카스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Bacchus_win}승 <br />
                                         총 득점: {this.state.Bacchus_point}점
@@ -793,7 +792,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box hw" title={<Title level={2}>한울건설</Title>} bordered={false}>
+                                <Card className="T_box hw" title="한울 건설" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hanwool_win}승 <br />
                                         총 득점: {this.state.Hanwool_point}점
@@ -805,7 +804,7 @@ class Result extends Component {
                     <div className="site-card-wrapper" style={{ display: `${this.state.result_dp1}` }}>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box hs" title={<Title level={2}>한솔레미콘</Title>} bordered={false}>
+                                <Card className="T_box hs" title="한솔 레미콘" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hansol_win}승 <br />
                                         총 득점: {this.state.Hansol_point}점
@@ -813,7 +812,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box de" title={<Title level={2}>데상트</Title>} bordered={false}>
+                                <Card className="T_box de" title="데상트 범퍼스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Descente_win}승 <br />
                                         총 득점: {this.state.Descente_point}점
@@ -821,7 +820,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box sc" title={<Title level={2}>스코어센터</Title>} bordered={false}>
+                                <Card className="T_box sc" title="스코어 센터" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Scorecenter_win}승 <br />
                                         총 득점: {this.state.Scorecenter_point}점
@@ -841,7 +840,7 @@ class Result extends Component {
                         </div>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box af" title={<Title level={2}>아프리카</Title>} bordered={false} style={{
+                                <Card className="T_box af" title="아프리카 프릭스" bordered={false} style={{
                                     backgroundImage: { afreeca }
                                 }}>
                                     <span>
@@ -851,7 +850,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box bc" title={<Title level={2}>박카스</Title>} bordered={false}>
+                                <Card className="T_box bc" title="박카스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Bacchus_win}승 <br />
                                 총 득점: {this.state.Bacchus_point}점
@@ -859,7 +858,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box hw" title={<Title level={2}>한울 건설</Title>} bordered={false}>
+                                <Card className="T_box hw" title="한울 건설" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hanwool_win}승 <br />
                                 총 득점: {this.state.Hanwool_point}점
@@ -871,7 +870,7 @@ class Result extends Component {
                     <div className="site-card-wrapper" style={{ display: `${this.state.result_dp2}` }}>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box hs" title={<Title level={2}>한솔</Title>} bordered={false}>
+                                <Card className="T_box hs" title="한솔 레미콘" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hansol_win}승 <br />
                                 총 득점: {this.state.Hansol_point}점
@@ -879,7 +878,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box de" title={<Title level={2}>데상트</Title>} bordered={false}>
+                                <Card className="T_box de" title="데상트 범퍼스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Descente_win}승 <br />
                                 총 득점: {this.state.Descente_point}점
@@ -887,7 +886,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box sc" title={<Title level={2}>스코어센터</Title>} bordered={false}>
+                                <Card className="T_box sc" title="스코어 센터" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Scorecenter_win}승 <br />
                                 총 득점: {this.state.Scorecenter_point}점
@@ -907,7 +906,7 @@ class Result extends Component {
                         </div>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box af" title={<Title level={2}>아프리카</Title>} bordered={false} style={{
+                                <Card className="T_box af" title="아프리카 프릭스" bordered={false} style={{
                                     backgroundImage: { afreeca }
                                 }}>
                                     <span>
@@ -917,7 +916,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box bc" title={<Title level={2}>박카스</Title>} bordered={false}>
+                                <Card className="T_box bc" title="박카스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Bacchus_win}승 <br />
                                 총 득점: {this.state.Bacchus_point}점
@@ -925,7 +924,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box hw" title={<Title level={2}>한울 건설</Title>} bordered={false}>
+                                <Card className="T_box hw" title="한울 건설" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hanwool_win}승 <br />
                                 총 득점: {this.state.Hanwool_point}점
@@ -937,7 +936,7 @@ class Result extends Component {
                     <div className="site-card-wrapper" style={{ display: `${this.state.result_dp3}` }}>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box hs" title={<Title level={2}>한솔레미콘</Title>} bordered={false}>
+                                <Card className="T_box hs" title="한솔 레미콘" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hansol_win}승 <br />
                                 총 득점: {this.state.Hansol_point}점
@@ -945,7 +944,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box de" title={<Title level={2}>데상트</Title>} bordered={false}>
+                                <Card className="T_box de" title="데상트 범퍼스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Descente_win}승 <br />
                                 총 득점: {this.state.Descente_point}점
@@ -953,7 +952,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box sc" title={<Title level={2}>스코어센터</Title>} bordered={false}>
+                                <Card className="T_box sc" title="스코어 센터" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Scorecenter_win}승 <br />
                                 총 득점: {this.state.Scorecenter_point}점
@@ -973,7 +972,7 @@ class Result extends Component {
                         </div>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box af" title={<Title level={2}>아프리카</Title>} bordered={false} style={{
+                                <Card className="T_box af" title="아프리카 프릭스" bordered={false} style={{
                                     backgroundImage: { afreeca }
                                 }}>
                                     <span>
@@ -983,7 +982,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box bc" title={<Title level={2}>박카스</Title>} bordered={false}>
+                                <Card className="T_box bc" title="박카스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Bacchus_win}승 <br />
                                 총 득점: {this.state.Bacchus_point}점
@@ -991,7 +990,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box hw" title={<Title level={2}>한울 건설</Title>} bordered={false}>
+                                <Card className="T_box hw" title="한울 건설" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hanwool_win}승 <br />
                                 총 득점: {this.state.Hanwool_point}점
@@ -1003,7 +1002,7 @@ class Result extends Component {
                     <div className="site-card-wrapper" style={{ display: `${this.state.result_dp4}` }}>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box hs" title={<Title level={2}>한솔레미콘</Title>} bordered={false}>
+                                <Card className="T_box hs" title="한솔 레미콘" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hansol_win}승 <br />
                                 총 득점: {this.state.Hansol_point}점
@@ -1011,7 +1010,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box de" title={<Title level={2}>데상트</Title>} bordered={false}>
+                                <Card className="T_box de" title="데상트 범퍼스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Descente_win}승 <br />
                                 총 득점: {this.state.Descente_point}점
@@ -1019,7 +1018,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box sc" title={<Title level={2}>스코어센터</Title>} bordered={false}>
+                                <Card className="T_box sc" title="스코어 센터" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Scorecenter_win}승 <br />
                                 총 득점: {this.state.Scorecenter_point}점
@@ -1039,7 +1038,7 @@ class Result extends Component {
                         </div>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box af" title={<Title level={2}>아프리카</Title>} bordered={false} style={{
+                                <Card className="T_box af" title="아프리카 프릭스" bordered={false} style={{
                                     backgroundImage: { afreeca }
                                 }}>
                                     <span>
@@ -1049,7 +1048,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box bc" title={<Title level={2}>박카스</Title>} bordered={false}>
+                                <Card className="T_box bc" title="박카스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Bacchus_win}승 <br />
                                 총 득점: {this.state.Bacchus_point}점
@@ -1057,7 +1056,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box hw" title={<Title level={2}>한울 건설</Title>} bordered={false}>
+                                <Card className="T_box hw" title="한울 건설" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hanwool_win}승 <br />
                                 총 득점: {this.state.Hanwool_point}점
@@ -1069,7 +1068,7 @@ class Result extends Component {
                     <div className="site-card-wrapper" style={{ display: `${this.state.result_dp5}` }}>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box hs" title={<Title level={2}>한솔레미콘</Title>} bordered={false}>
+                                <Card className="T_box hs" title="한솔 레미콘" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hansol_win}승 <br />
                                 총 득점: {this.state.Hansol_point}점
@@ -1077,7 +1076,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box de" title={<Title level={2}>데상트</Title>} bordered={false}>
+                                <Card className="T_box de" title="데상트 범퍼스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Descente_win}승 <br />
                                 총 득점: {this.state.Descente_point}점
@@ -1085,7 +1084,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box sc" title={<Title level={2}>스코어센터</Title>} bordered={false}>
+                                <Card className="T_box sc" title="스코어 센터" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Scorecenter_win}승 <br />
                                 총 득점: {this.state.Scorecenter_point}점
@@ -1105,7 +1104,7 @@ class Result extends Component {
                         </div>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box af" title={<Title level={2}>아프리카</Title>} bordered={false} style={{
+                                <Card className="T_box af" title="아프리카 프릭스" bordered={false} style={{
                                     backgroundImage: { afreeca }
                                 }}>
                                     <span>
@@ -1115,7 +1114,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box bc" title={<Title level={2}>박카스</Title>} bordered={false}>
+                                <Card className="T_box bc" title="박카스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Bacchus_win}승 <br />
                                 총 득점: {this.state.Bacchus_point}점
@@ -1123,7 +1122,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box hw" title={<Title level={2}>한울 건설</Title>} bordered={false}>
+                                <Card className="T_box hw" title="한울 건설" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hanwool_win}승 <br />
                                 총 득점: {this.state.Hanwool_point}점
@@ -1135,7 +1134,7 @@ class Result extends Component {
                     <div className="site-card-wrapper" style={{ display: `${this.state.result_dp6}` }}>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box hs" title={<Title level={2}>한솔레미콘</Title>} bordered={false}>
+                                <Card className="T_box hs" title="한솔 레미콘" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hansol_win}승 <br />
                                 총 득점: {this.state.Hansol_point}점
@@ -1143,7 +1142,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box de" title={<Title level={2}>데상트</Title>} bordered={false}>
+                                <Card className="T_box de" title="데상트 범퍼스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Descente_win}승 <br />
                                 총 득점: {this.state.Descente_point}점
@@ -1151,7 +1150,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box sc" title={<Title level={2}>스코어센터</Title>} bordered={false}>
+                                <Card className="T_box sc" title="스코어 센터" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Scorecenter_win}승 <br />
                                 총 득점: {this.state.Scorecenter_point}점
@@ -1171,7 +1170,7 @@ class Result extends Component {
                         </div>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box af" title={<Title level={2}>아프리카</Title>} bordered={false} style={{
+                                <Card className="T_box af" title="아프리카 프릭스" bordered={false} style={{
                                     backgroundImage: { afreeca }
                                 }}>
                                     <span>
@@ -1181,7 +1180,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box bc" title={<Title level={2}>박카스</Title>} bordered={false}>
+                                <Card className="T_box bc" title="박카스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Bacchus_win}승 <br />
                                 총 득점: {this.state.Bacchus_point}점
@@ -1189,7 +1188,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box hw" title={<Title level={2}>한울 건설</Title>} bordered={false}>
+                                <Card className="T_box hw" title="한울 건설" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hanwool_win}승 <br />
                                 총 득점: {this.state.Hanwool_point}점
@@ -1201,7 +1200,7 @@ class Result extends Component {
                     <div className="site-card-wrapper" style={{ display: `${this.state.result_dp7}` }}>
                         <Row style={{marginLeft:'auto', marginRight:'auto'}} gutter={16}>
                             <Col span={8}>
-                                <Card className="T_box hs" title={<Title level={2}>한솔레미콘</Title>} bordered={false}>
+                                <Card className="T_box hs" title="한솔 레미콘" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Hansol_win}승 <br />
                                 총 득점: {this.state.Hansol_point}점
@@ -1209,7 +1208,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box de" title={<Title level={2}>데상트</Title>} bordered={false}>
+                                <Card className="T_box de" title="데상트 범퍼스" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Descente_win}승 <br />
                                 총 득점: {this.state.Descente_point}점
@@ -1217,7 +1216,7 @@ class Result extends Component {
                                 </Card>
                             </Col>
                             <Col span={8}>
-                                <Card className="T_box sc" title={<Title level={2}>스코어센터</Title>} bordered={false}>
+                                <Card className="T_box sc" title="스코어 센터" bordered={false}>
                                     <span>
                                         총 승리: {this.state.Scorecenter_win}승 <br />
                                 총 득점: {this.state.Scorecenter_point}점
@@ -1232,97 +1231,6 @@ class Result extends Component {
 
                 {/* PlayOff */}
                 <div className="POinfo" style={{display: `${this.state.result_dp8}` }}>
-                    {/* 6강전 라인 */}
-                    <div>
-                        <Row >
-                            <Col>
-                                <Card title="Afreeca Freecs" bordered={false}>
-                                    부전승
-                                </Card>
-                            </Col>
-                            <Col>
-                                <Card title="BACCHUS" bordered={false}>
-                                    20
-                                </Card>
-                            </Col>
-                            <span>VS</span>
-                            <Col>
-                                <Card title="Hanwool CONST" bordered={false}>
-                                    16
-                                </Card>
-                            </Col>
-                            <Col>
-                                <Card title="Descente Bumpers" bordered={false}>
-                                    21
-                                </Card>
-                            </Col>
-                            <span>VS</span>
-                            <Col>
-                                <Card title="Score Center" bordered={false}>
-                                    9
-                                </Card>
-                            </Col>
-                            <Col>
-                                <Card title="Hansol Remicon" bordered={false}>
-                                    부전승
-                                </Card>
-                            </Col>
-                        </Row>
-                    </div>
-                <br/>
-                {/* 4강전 라인 */}
-                <div>
-                        <Row gutter={24}>
-                            <Col span={6}>
-                                <Card title="Afreeca Freecs" bordered={false}>
-                                    21
-                                </Card>
-                            </Col>
-                            <Col span={6}>
-                                <Card title="BACCHUS" bordered={false}>
-                                    18
-                                </Card>
-                            </Col>
-                            <Col span={6}>
-                                <Card title="Descente Bumpers" bordered={false}>
-                                    17
-                                </Card>
-                            </Col>
-                            <Col span={6}>
-                                <Card title="Hansol Remicon" bordered={false}>
-                                    21
-                                </Card>
-                            </Col>
-                        </Row>
-                </div>
-                <br/>
-                {/* 2강전 라인 */}
-                <div>
-                        <Row gutter={24}>
-                            <Col span={12}>
-                                <Card title="Afreeca Freecs" bordered={false}>
-                                    19
-                                </Card>
-                            </Col>
-                            <Col span={12}>
-                                <Card title="Hansol Remicon" bordered={false}>
-                                    21
-                                </Card>
-                            </Col>
-                        </Row>
-                </div>
-                <br/>
-                {/* 우승자 라인 */}
-                <div>
-                        <Row gutter={24}>
-                            <Col span={24}>
-                                <Card title="Hansol Remicon" bordered={false}>
-                                    우승
-                                </Card>
-                            </Col>
-                        </Row>
-                </div>
-
                 </div>
             </div>
         )

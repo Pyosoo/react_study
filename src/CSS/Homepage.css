@@ -11,103 +11,96 @@
 
 @media (min-width: 1280px) {
 
-    .wrap{width: 100%; margin: auto; background-color: #333;
-        z-index: -1; font-family: 'Noto Sans KR', sans-serif;}
-       
-        
-        
-        /* 배경 안에 들어가는 콘텐츠 배경 및 css 작업 내역 */
-        
-        .wrap_content{background-color: white; width: 100%; margin: auto;}
-        
-        /* com2us 로고가 들어가는 공간 이미지 편집 */
-        
-        .main_logo_visual{text-align: center; padding-top:30px; padding-bottom: 50px }
-        .main_logo_visual img{width: 300px;}
-        
-        .main_visual_img{width: 100%; height: 700px; background-image: url('../Images/visual_img.jpg'); background-repeat: no-repeat; background-position: top; background-size: cover;}
-        
-        /* final match resut 부분이 들어가는 곳 css 작업내역 */
-        
-        /*background_color  적용해줘야 하는 곳 */
-        .background_color{background-color: #999; width: inherit; height: 700px;z-index: -1;}
-        .content_01{padding-top: 50px; padding-left: 180px;}
-        
-        
-        
-        /* 이미지가 들어가야 하는 곳 */
-        .content_02{display: flex;position: relative; margin-top: -500px; justify-content: space-between;} 
-        .content_02_01_banner{
-            width: 650px; 
-            height: 1000px; 
-            border-radius: 150px 0px 0px 0px;
-            background-image: url('../Images/Hansol_finalmember.png'); 
-            background-repeat:no-repeat;
-            background-size: contain; 
-            background-position: top; 
-            z-index: 2;
-        }
-        
-        .content_02_02_banner{
-            width: 650px; 
-            height: 1000px; 
-            border-radius: 0px 150px 0px 0px;
-            background-image: url("../Images/Afreeca_finalmember.png"); 
-            background-repeat:no-repeat;
-            background-size: contain; 
-            background-position: top;
-        }
-        
-        
-        /* 스코어?! 점수 들어가는 공간 css 작업 내역*/
-        
-        .count p{padding-top: 550px; font-size: 50px; font-weight: bold; color: #333;}
-        
-        /* mvp: 전태풍이랑 한솔 레미콘이 들어가는 css 작업 내역 _ 전체적인 부분*/
-        .content_03{ position: relative; display: flex; justify-content: center; margin-top: -150px;  padding-bottom: 200px;}
-        
-        
-        /* mvp, 한솔레미콘 말풍선이 들어가는 css 작업내역 */
-        
-        .flex_col img{display: flex; margin: auto;}
-        
-        
-        /*우승팀 말풍선에 들어갈 css 작업 내역 */
-        .flex_col p{ margin-top: 50px; background-image: url('../Images/black_say.png');
-        width: 540px; height: 220px; padding-top: 30px; padding-left: 20px;
-        padding-right: 20px; background-repeat: no-repeat; color: white;
-         font-weight: 100;  text-align: left; 
-        } 
-        
-        .flex_col span{font-weight: bold; font-size: 25px;}
-        
-        /* 전태풍 말풍선에 들어갈 css 작업 내역 */
-        .flex_col_02 p{ margin-top: 50px; background-image: url('../Images/gray_say.png');
-        width: 600px; height: 202px; padding-top: 20px; padding-left: 20px; background-position: top; background-size: contain;
-        padding-left: 90px; background-repeat: no-repeat; color: white;
-         font-weight: 100; margin-bottom: 50px;  text-align: left; 
-        } 
-        
-        .flex_col_02 span{font-weight: bold; font-size: 25px;}
-        
-        
-        /* 유튜브 영상과 관련된 css 작업내역*/
-        .video_box{
-            width: 100%; 
-            height: 800px; 
-            display: flex; 
-            justify-content: center;
-             margin-top: -100px; 
-             margin-bottom: 200px;
-        }
-        .video_box iframe{
-            width: 100%;
-            height: 100%;
-        }
-        
-        /*footer css 작업 내역*/
-        .footer {background-image: url('../Images/footer.png');  height: 400px; position: relative;
-        background-position: center;}
+    
+.wrap{width: 1920px; margin: auto; background-color: #333;
+    z-index: -1; font-family: 'Noto Sans KR', sans-serif;}
+    
+    /*빨간 메뉴바 css 내역 */
+    .nav{list-style-type: none; display: flex; justify-content: flex-end;
+    height: 80px; background-color: red; font-size: 20px; color: white;}
+    .nav ul{list-style-type: none; width: 950px; display: flex;}
+    
+    
+    .nav li{padding-right: 50px; opacity: 0.5;}
+    .nav li:hover{opacity: 1; cursor: pointer;}
+    
+    
+    /* 배경 안에 들어가는 콘텐츠 배경 및 css 작업 내역 */
+    
+    .wrap_content{background-color: white; width: 1600px; margin: auto;}
+    
+    /* com2us 로고가 들어가는 공간 이미지 편집 */
+    
+    .main_logo_visual{text-align: center; padding-top:30px; padding-bottom: 50px }
+    .main_logo_visual img{width: 300px;}
+    
+    .main_visual_img{width: 1600px; height: 700px; background-image: url('../Images/visual_img.jpg'); background-repeat: no-repeat; background-position: top; background-size: cover;}
+    
+    /* final match resut 부분이 들어가는 곳 css 작업내역 */
+    
+    /*background_color  적용해줘야 하는 곳 */
+    .background_color{background-color: #999; width: inherit; height: 700px;z-index: -1;}
+    .content_01{padding-top: 50px; padding-left: 180px;}
+    
+    
+    
+    /* 이미지가 들어가야 하는 곳 */
+    .content_02{display: flex;position: relative; margin-top: -500px; justify-content: space-between;} 
+    .content_02_01_banner{width: 650px; height: 1000px; border-radius: 300px 0px 0px 0px;
+    background: url('../Images/Hansol_finalmember.png'); background-repeat:no-repeat;
+    background-size: contain; background-position: top; z-index: 2;}
+    
+    .content_02_02_banner{width: 650px; height: 1000px; border-radius: 0px 300px 0px 0px;
+    background: url('../Images/Afreeca_finalmember.png'); background-repeat:no-repeat;
+    background-size: contain; background-position: top;}
+    
+    
+    /* 스코어?! 점수 들어가는 공간 css 작업 내역*/
+    
+    .count p{padding-top: 550px; font-size: 50px; font-weight: bold; color: #333;}
+    
+    /* mvp: 전태풍이랑 한솔 레미콘이 들어가는 css 작업 내역 _ 전체적인 부분*/
+    .content_03{ position: relative; display: flex; justify-content: center; margin-top: -150px;  padding-bottom: 200px;}
+    
+    
+    /* mvp, 한솔레미콘 말풍선이 들어가는 css 작업내역 */
+    
+    .flex_col img{display: flex; margin: auto;}
+    
+    
+    /* mvp 전태풍 말풍선에 들어갈 css 작업 내역 */
+    
+    .flex_col p{ margin-top: 50px; background-image: url('../Images/black_say.png');
+    width: 540px; height: 220px; padding-top: 40px; padding-left: 20px;
+    padding-right: 20px; background-repeat: no-repeat; color: white;
+     font-weight: 100; padding-right: 50px;
+    } 
+    
+    .flex_col span{font-weight: bold; font-size: 15x; word-break: normal;}
+    
+    /* 우승팀 한솔 레미콘 말풍선에 들어갈 css 작업 내역 */
+    
+    
+    .flex_col_02 p{ margin-top: 50px; background-image: url('../Images/gray_say.png');
+    width: 600px; height: 218px; padding-top: 40px; padding-left: 20px; background-position: top; background-size: cover;
+    padding-left: 90px; background-repeat: no-repeat; color: white;
+     font-weight: 100; margin-bottom: 45px; padding-right: 45px;
+    } 
+    
+    .flex_col_02 span{font-weight: bold; font-size: 15px;}
+    
+    
+    /* 유튜브 영상과 관련된 css 작업내역*/
+    .video_box{
+        display: flex; justify-content: center; margin-top: -100px; margin-bottom: 200px;}
+    
+    .video_box iframe{
+        width: 70%;
+        height: 750px;
+    }
+    /*footer css 작업 내역*/
+    .footer {background-image: url('../Images/footer.png');  height: 400px; position: relative;
+    background-position: center;}
     
 }
 
@@ -270,7 +263,7 @@
         .main_logo_visual{text-align: center; padding-top:30px; padding-bottom: 50px }
         .main_logo_visual img{width: 80px;}
         
-        .main_visual_img{width: 100%; height: 700px; background-image: url('../Images/visual_img.jpg'); background-repeat: no-repeat; background-position: top; background-size: cover;}
+        .main_visual_img{width: 100%; height: 200px; background-image: url('../Images/visual_img.jpg'); background-repeat: no-repeat; background-position: top; background-size: cover;}
         
         /* final match resut 부분이 들어가는 곳 css 작업내역 */
         
@@ -289,7 +282,7 @@
         /* 이미지가 들어가야 하는 곳 */
         .content_02{width: 100%; display: flex;position: relative; margin-top: -500px; justify-content: space-between;} 
         .content_02_01_banner{
-            width: 30%; 
+            width: 40%; 
             height: 215px;
             background-image: url('../Images/Hansol_finalmember.png'); 
             background-repeat:no-repeat;
@@ -299,7 +292,7 @@
         }
         
         .content_02_02_banner{
-            width: 30%; 
+            width: 40%; 
             height: 215px; 
             background-image: url("../Images/Afreeca_finalmember.png"); 
             background-repeat:no-repeat;
@@ -309,7 +302,7 @@
         
         
         /* 스코어?! 점수 들어가는 공간 css 작업 내역*/
-        .count p{width: 50px; padding-top: 100px; font-size: 20px; font-weight: bold; color: #333;}
+        .count p{width: 50px; padding-top: 60px; font-size: 20px; font-weight: bold; color: #333;}
         
 
         /* mvp: 전태풍이랑 한솔 레미콘이 들어가는 css 작업 내역 _ 전체적인 부분*/
@@ -318,7 +311,8 @@
             position: relative; 
             display: flex;  
             margin-top: 30px;  
-            padding-bottom: 200px;}
+            padding-bottom: 200px;
+        }
         .content_03_wrap{
             width: 50%;
         }
@@ -328,7 +322,7 @@
         
         /* mvp, 한솔레미콘 말풍선이 들어가는 css 작업내역 */
         
-        .flex_col img{width: 50%; display: flex; margin: auto;}
+        .flex_col img{width: 100%; display: flex; margin: auto;}
       
         
         /*우승팀 말풍선에 들어갈 css 작업 내역 */
@@ -347,11 +341,19 @@
         } 
         
         .flex_col_03 img {
-            width: 80%;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+        .flex_col span{font-weight: bold; font-size: 15px;}
+        
+        .flex_col{
+            overflow: auto;
+        }
+        .flex_col_02{
+            overflow: auto;
         }
 
-        .flex_col span{font-weight: bold; font-size: 17px;}
-        
         /* 전태풍 말풍선에 들어갈 css 작업 내역 */
         .flex_co1_02{
             width: 50%;
@@ -367,12 +369,12 @@
             padding-top: 10px;
             padding-left: 15px;
             color: black;
-            font-size: 3px; 
+            font-size: 1vw; 
             margin-bottom: 50px;  
             text-align: left; 
         } 
         
-        .flex_col_02 span{font-weight: bold; font-size: 8px;}
+        .flex_col_02 span{font-weight: bold; font-size: 15px;}
         
         
         /* 유튜브 영상과 관련된 css 작업내역*/
@@ -381,18 +383,19 @@
            height: 100%;
         }
         .video_box iframe{
-            width: 100%;
+            width: 87%;
             height: 100%;
         }
         
         /*footer css 작업 내역*/
         .footer {
             background-image: url('../Images/footer.png'); 
-            width: 480px;
+            width: 100%;
             height: 100px; 
             position: relative;
             background-size: contain;
             background-repeat: no-repeat;
-            background-position: center;}
+            background-position: center;
+        }
     
 }

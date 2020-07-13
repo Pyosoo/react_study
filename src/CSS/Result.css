@@ -1,6 +1,6 @@
 .Result_Container {
     width: 100%;
-    height: 200vh;
+    height: 2200px;
     background-image: url('../Images//result_back2.png.jpg');
     background-size: cover;
     background-position: center;
@@ -46,8 +46,8 @@
 }
 
 .ant-card {
-    width: 12vw;
-    height: 18vh;
+    width: 20vw;
+    height: 25vh;
 }
 
 .ant-col {
@@ -56,7 +56,7 @@
 }
 
 .ant-row {
-    width: fit-content;
+    width: 70vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -87,4 +87,14 @@
 
 .POinfo span{
     color: white;
+}
+
+.POinfo{
+    background-image: url('../Images/POimage.png');
+    width: 100%;
+    height: 200vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
 }
